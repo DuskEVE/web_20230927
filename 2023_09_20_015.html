@@ -1,0 +1,120 @@
+<!-- 在這裡寫的文字都是註解，並不會影響任何html檔案的表現 -->
+<!-- !doctype 指該文件檔案的類型(document type) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head 中用來放置一些定義html文件的東西，像是該網頁的標題(title)或是連結該html要使用的css檔案(style)等等 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+<!-- 大多heml標籤都會有開頭和結尾，像是<h1></h1>，在開始和結尾標籤中的內容就屬於h1元素(Element)的內容 -->
+<!-- body就是該網頁的主體，包含所有你需要顯示在網頁中的內容 -->
+<body>
+    <!-- h1 中的內容為標題(h指標題(heading)，後面的數字代表標題文字大小，1最大，6最小) -->
+    <h1>Hello World!</h1><br>
+    
+    <!-- div為容器，用來分類hmml的內容，主要配合CSS來為網頁排版和裝飾 -->
+    <div>
+        <h2>Bury the Light Lyrics</h2><br>
+
+        <!-- 嵌入的youtube 影片視窗 -->
+        <!-- 在iframe標籤中包含的屬性(attribute)，像width、height、src等等這些是用來定義這個元素(Element)的表現，
+        width(寬度)用來定義嵌入影片視窗的寬度，height(高度)定義嵌入影片視窗高度，src(來源，source)定義影片的來源等等 -->
+        <div class="video-container">
+            <iframe
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/xsu0rI83Kq8?si=NsQIpnrBDVZpPUHL" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe><br>
+        </div><br>
+        <!-- <br>代表換行(break) -->
+        <div class="text-box">
+            Immortal temptation<br>
+            Takes over my mind, condemned<br>
+            Falling weak on my knees<br>
+            Summon the strength of mayhem<br>
+            I am the storm that is approaching<br>
+            Provoking black clouds in isolation<br>
+            I am reclaimer of my name<br>
+            Born in flames, I have been blessed<br>
+            My family crest is a demon of death<br>
+            Forsakened, I am awakened<br>
+            A phoenix's ash in dark divine<br>
+            Descending misery<br>
+            Destiny chasing time<br>
+            Inherit the nightmare, surrounded by fate<br>
+            Can't run away<br>
+            Keep walking the line, between the light<br>
+            Led astray<br>
+            Through vacant halls I won't surrender<br>
+            The truth revealed in eyes of ember<br>
+            We fight through fire and ice forever<br>
+            Two souls once lost, and now they remember<br>
+            I am the storm that is approaching<br>
+            Provoking black clouds in isolation<br>
+            I am reclaimer of my name<br>
+            Born in flames, I have been blessed<br>
+            My family crest is a demon of death<br>
+            Forsakened, I am awakened<br>
+            A phoenix's ash in dark divine<br>
+            Descending misery<br>
+            Destiny chasing time<br>
+            Disappear into the night<br>
+            Lost shadows left behind<br>
+            Obsession's pulling me<br>
+            Fading, I've come to take what's mine<br>
+            Lurking in the shadows under veil of night<br>
+            Constellations of blood pirouette<br>
+            Dancing through the graves of those who stand at my feet<br>
+            Dreams of the black throne I keep on repeat<br>
+            A derelict of dark, summoned from the ashes<br>
+            The puppet master congregates all the masses<br>
+            Pulling strings, twisting minds as blades hit<br>
+            You want this power? Then come try and take it<br>
+            Beyond the tree, fire burns<br>
+            Secret love, bloodline yearns<br>
+            Dark minds embrace, crimson joy<br>
+            Does your dim heart heal or destroy?<br>
+            Bury the light deep within<br>
+            Cast aside, there's no coming home<br>
+            We're burning chaos in the wind<br>
+            Drifting in the ocean all alone<br>
+        </div>
+    </div>
+
+    <div>
+        <h1>This is Heading</h1>
+        <!-- 文字內容輸入lorem後再按tab可以快速產生範例文字內容 -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h6>Lorem ipsum dolor sit amet.</h6>
+    </div>
+    
+    <div class="img-container">
+        <!-- img標籤為self-closing tag(自動關閉標籤)，也就是只要單個標籤而不需要成對的開頭和關閉標籤 -->
+        <img src="pic/pic01.png"/>
+    </div>
+    <div class="img-container">
+        <img src="pic/pic02.png"/>
+    </div>
+    <div class="img-container">
+        <img src="pic/pic03.png"/>
+    </div>
+</body>
+
+</html>
+
+<!-- 按住ctrl和/可以快速將選取內容轉換為註解，或是產生空的註解欄位 -->
+<!-- 按住alt再進行選取可以進行多行選取 -->
+<!-- 按住alt再按上或下方向鍵可以快速移動整行編碼 -->
